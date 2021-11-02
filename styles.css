@@ -1,13 +1,53 @@
+body
+{
+    background-color: rgb(26, 24, 24);
+}
+
+h1
+{
+    text-align: center;
+}
+
+h1, p, h2
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #blog-box
 {
     margin-left: 120px;
     margin-right: 120px;
-    border:  1px solid black ;
-    border-radius: 10px;
+    border:  2px solid rgb(0, 37, 245) ;
+    border-radius: 20px;
 }
 
 #blog-box > div
 {
     margin-left: 30px;
-    margin-right: 30px;
+    margin-right: 30px;    
 }
+
+#blog-box, #blog-box-child_undertale
+{
+    background-color: rgba(46, 44, 44, 0.952);
+}
+
+/* ------------------- Centrar mais que uma img horizontalmente ------------------- */
+
+.img_container 
+{ 
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+.img_container > img
+{ 
+    text-align:center;
+}
+
+/* ------------------------------------------------------------------------------- */
+
