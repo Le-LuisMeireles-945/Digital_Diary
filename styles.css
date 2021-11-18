@@ -33,6 +33,12 @@ h1, p, h2
     background-color: rgba(46, 44, 44, 0.952);
 }
 
+p
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /* ------------------- Centrar mais que uma img horizontalmente ------------------- */
 
 .img_container 
